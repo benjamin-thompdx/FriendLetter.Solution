@@ -1,0 +1,14 @@
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/bin/Debug/netcoreapp2.2/FriendLetter.deps.json
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/bin/Debug/netcoreapp2.2/FriendLetter.runtimeconfig.json
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/bin/Debug/netcoreapp2.2/FriendLetter.runtimeconfig.dev.json
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/bin/Debug/netcoreapp2.2/FriendLetter.dll
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/bin/Debug/netcoreapp2.2/FriendLetter.pdb
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.csprojAssemblyReference.cache
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.csproj.CoreCompileInputs.cache
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.RazorAssemblyInfo.cache
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.RazorAssemblyInfo.cs
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.AssemblyInfoInputs.cache
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.AssemblyInfo.cs
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.RazorTargetAssemblyInfo.cache
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.dll
+/Users/Bthom/Desktop/FriendLetter.Solution/FriendLetter/obj/Debug/netcoreapp2.2/FriendLetter.pdb
