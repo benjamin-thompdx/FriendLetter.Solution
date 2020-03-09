@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Create a Custom Postcard!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+
+    @*Notice the <form> tag includes action="/postcard". This tells ASP.NET Core MVC where to submit info provided through this form. This attribute must be set to the path of another route in our controller. That means if we use a route decorator, it will be set to the path we've specified in the decorator. We'll create a "/postcard" route soon.
+
+    We create a <label> and <input> for each piece of info the form collects. <input>s must have 3 attributes: name, id, and type.
+
+    The id can be anything as long as it's unique on this page. Generally, the value will be the same for both name and id.
+
+    The <input> tag has many different possible values for the type attribute. Examples include dates, colors, and numbers. This one is set to "text".
+    
+    The <label> tag provides the text to display next to the input box. It takes one attribute called for, which should match the id attribute of the corresponding <input> tag. For example, the <input> tag with attribute id="recipient" should have a <label> tag with the attribute for="recipient".
+
+    The <button> tag creates the button that submits the form. It has one attribute called type. This attribute must be set to "submit". Otherwise, the form won't work correctly.*@
+
+    <h1>Fill in your name and your friend's name to create your custom postcard!</h1>
+    <form action="/postcard" method="post">
+     <label for="sender">Sender's Name</label>
+     <input id="sender" name="sender" type="text">
+     <label for="recipient">Recipient's Name</label>
+     <input id="recipient" name="recipient" type="text">
+     <button type="submit">Go!</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Friend!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    @* We've replaced two instances of the term friend with the following code: @Model.Recipient --> The @ character indicates the start of Razor code. The Razor engine will evaluate anything following this symbol.
+
+    Model is a property that Razor provides so we can access the model that's passed into the view. In this case, we'll be passing in an instance of LetterVariable from the model we created in the last lesson.
+
+    Because Razor has exposed an instantiated LetterVariable model, we can access the LetterVariable's Recipient property, which will be a unique name instead of the more generic friend. *@
+
+    <h1>Hello From Afar</h1>
+    <p>Dear @Model.Recipient,</p>
+    <p>How are you? I hope that you are having a nice weekend. I'm vacationing in Iceland while I learn programming! </p>
+    <p>@Model.Recipient, you would not believe how cold it is here. I should have gone to Hawaii instead.</p>
+    <p>But I like programming a lot, so I've got that going for me. </p>
+    <p>Looking forward to seeing you soon. I'll bring you back a souvenir. </p>
+    <p>Cheers,</p>
+    <p>Travel Enthusiast @Model.Sender</p>
+  </body>
+</html>
